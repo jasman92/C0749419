@@ -14,7 +14,7 @@
 //}
 //var inputnumber = prompt("State starting number");
 //document.write(addNumbers(inputnumber));
-var rows = prompt("How many rows for your multiplication table?");
+/*var rows = prompt("How many rows for your multiplication table?");
 var cols = prompt("How many columns for your multipication table?");
 
 if (rows == "" || rows == null)
@@ -36,4 +36,5 @@ function createTable(rows, cols) {
     }
     output = output + "</table>";
     document.write(output);
-}
+}*/
+

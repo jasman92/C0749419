@@ -4,11 +4,29 @@
     <meta charset="utf-8" />
     <title>C0749419</title>
     <link href="css/default.css" rel="stylesheet" />
-</head>
-<body>
-    <div>Multiplication Table</div>
-    <script src="js/main.js">
-        
+    <script type="text/javascript">
+
+        function trigger() {
+            document.getElementById("hover".addEventListener("mouseover", popup));
+
+            function popup() {
+                alert("Welcome to my webapge!!!");
+
+            }
+        }
     </script>
+    <style>
+        p{
+            font-size:50px;
+            position:fixed;
+            left:550px;
+            top:300px;
+        }
+    </style>
+</head>
+<body onload="trigger();">
+    <p id ="hover">Welcome!!!</p>
+    
+    
 </body>
 </html>
